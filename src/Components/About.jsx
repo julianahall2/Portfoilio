@@ -10,7 +10,7 @@ import React from "react";
  * About background image
  *
  * Below is a sample image. Upload the image of your choice into the "images"
- * directory and import here for use. Then, set imageAltText to string that 
+ * directory and import here for use. Then, set imageAltText to string that
  * represents what you see in that image.
  *
  * Need an image? Check out https://unsplash.com to download a image you
@@ -24,7 +24,7 @@ const imageAltText = "purple and blue abstract background";
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
+  "Sou uma estudante de Ciencia de Dados e Inteligência Artificial na IBMEC. Atualmente, estou fazendo um periodo de intercambio na ISCTE, Lisboa. Apaixonada por tecnologia e inovacao, sempre buscando novos desafios e aprendizados.";
 
 /**
  * List of some of skills or technologies you work on, are learning,
@@ -32,11 +32,15 @@ const description =
  */
 const skillsList = [
   "Web design",
-  "User experience",
-  "Inclusive design",
-  "Focus group testing",
-  "Mobile user interfaces",
-  "Graphic design",
+  "Desenvolvimento Web",
+  "JavaScript",
+  "HTML",
+  "CSS",
+  "React",
+  "Python",
+  "MySQL",
+  "Power BI",
+  "Github",
 ];
 
 /**
@@ -45,7 +49,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+  "Acredito que a tecnologia e a inovacao sao a chave para um futuro melhor. Sempre buscando novos desafios e aprendizados, acredito que a curiosidade e a chave para o sucesso.";
 
 const About = () => {
   return (
@@ -60,7 +64,7 @@ const About = () => {
           textAlign: "center",
         }}
       >
-        <h2>About Myself</h2>
+        <h2>Sobre Mim</h2>
         <p className="large">{description}</p>
         <hr />
         <ul

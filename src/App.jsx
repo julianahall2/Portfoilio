@@ -13,6 +13,7 @@ import Home from "./Components/Home";
 import Portfolio from "./Components/Portfolio";
 
 import "./styles.css";
+import Curriculo from "./Components/Curriculo";
 
 /**
  * This object represents your information. The project is set so that you
@@ -24,15 +25,13 @@ import "./styles.css";
  * If you don't have one of the social sites listed, leave it as an empty string.
  */
 const siteProps = {
-  name: "Alexandrie Grenier",
-  title: "Web Designer & Content Creator",
-  email: "alex@example.com",
-  gitHub: "microsoft",
-  instagram: "microsoft",
-  linkedIn: "satyanadella",
-  medium: "",
-  twitter: "microsoft",
-  youTube: "Code",
+  name: "Juliana Azeredo Hall",
+  title: "Estudante de Ciencia de Dados e Inteligencia Artificial",
+  bio: "Estudante de Ciencia de Dados e Inteligencia Artificial na IBMEC, fazendo um periodo de intercambio na ISCTE,Lisboa . Apaixonada por tecnologia e inovacao, sempre buscando novos desafios e aprendizados.",
+  email: "ju.azeredohall@gmail.com",
+  gitHub: "julianahall2",
+  instagram: "juh.hall",
+  linkedIn: "http://linkedin.com/in/julianaazeredohall",
 };
 
 const primaryColor = "#4E567E";
@@ -45,6 +44,7 @@ const App = () => {
       <Home name={siteProps.name} title={siteProps.title} />
       <About />
       <Portfolio />
+      <Curriculo />
       <Footer {...siteProps} primaryColor={primaryColor} secondaryColor={secondaryColor} />
     </div>
   );

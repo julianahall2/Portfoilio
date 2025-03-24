@@ -19,9 +19,9 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/fotominha.jpeg";
 
-const imageAltText = "desktop with books and laptop";
+const imageAltText = "Foto minha";
 
 /**
  * Project list
@@ -31,28 +31,40 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Projeto Bot Azure",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "Projeto de um bot para atendimento ao cliente, onde o bot é capaz de mostrar opcoes de produtos, pagamento e finalizar a compra.",
+    url: "https://github.com/julianahall2/cloud.git",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Startup Barber.go",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "Aplicativo de atendimento de barbearia premium na conveniência da casa do cliente, no horário que ele preferir,lexibilidade de agendamento, com atendimento de qualidade, com profissionais qualificados e produtos de alta qualidade",
+    url: "https://github.com/julianahall2/baber-go.git",
   },
   {
-    title: "My Resume Site",
+    title: "Projeto Big Data",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "Projeto no Azure onde foi criado foi criado um cliente e enderecos desses clientes, com a possibilidade de adicionar, editar e deletar clientes e enderecos.",
+    url: "https://github.com/julianahall2/big_data.git",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "Projeto Chamados ",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "Nossa missão era desenvolver um sistema de chamados para a Microméros, empresa de tecnologia que oferece serviços às industrias, para aumento da produtividade e organização dos atendimentos solicitados, através de um controle eficiente de chamados com segmentação por departamento e criticidade. Esse sistema deve permitir se possa organizar os chamados internos de seus usuários e registrar os tickets com suas informações durante e após o atendimento.",
+    url: "https://github.com/rafaelf-lima/projeto-front-end.git",
+  },
+  {
+    title: "Jogo Escape",
+    description:
+      " Escape foi um jogo de plataforma em 2D criado no Godot, onde o jogador controla um personagem que deve percorrer vários níveis, saltando entre plataformas, evitando obstáculos e inimigos, coletando itens espalhados pelo caminho. O objetivo final é chegar ao final de cada nível, onde o jogador poderá avançar para o próximo estágio.",
+    url: "https://github.com/larissanobregaa/Jogo-Escape.git",
+  },
+  {
+    title: "Site Botafogo",
+    description:
+      " Site do Botafogo de Futebol e Regatas, com informações sobre o time e jogadores.",
+    url: "https://julianahall2.github.io/Trab_AP2/",
   },
 ];
 
