@@ -63,11 +63,11 @@ const Curriculo = () => {
             gap: "3rem",
           }}
         >
-        <li>
+          <li>
             <a href={imageCurriculo} target="_blank" rel="noreferrer">
-            <img src={imageCurriculo} alt="Curriculo" style={{ width: "100%" }} />
+              <img src={imageCurriculo} alt="Curriculo" style={{ width: "100%" }} />
             </a>
-            </li>
+          </li>
         </ul>
         <hr />
         <p style={{ padding: "1rem 3rem 0" }}>Atualizado desde 2025</p>
