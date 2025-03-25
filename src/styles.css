@@ -206,3 +206,15 @@ img.socialIcon {
     margin-bottom: 2rem;
   }
 }
+
+@media (max-width: 768px) {
+  ul {
+    columns: 1;
+    font-size: 1.1rem;
+    padding: 0 1rem;
+  }
+
+  li {
+    margin-bottom: 0.75rem;
+  }
+}

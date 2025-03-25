@@ -65,7 +65,8 @@ const Curriculo = () => {
         >
           <li>
             <a href={imageCurriculo} target="_blank" rel="noreferrer">
-              <img src={imageCurriculo} alt="Curriculo" style={{ width: "100%" }} />
+              <p>PDF para o Curriculo </p>
+              <img src={imageCurriculo} alt="Curriculo" style={{ width: "300px"  }} />
             </a>
           </li>
         </ul>
