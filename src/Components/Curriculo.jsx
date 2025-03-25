@@ -17,8 +17,7 @@ import React from "react";
  * freely use on your site.
  */
 import image from "../images/motion-background.jpg";
-const imageCurriculo = require("../images/Curriculo.png");
-
+import imageCurriculo from "../images/Curriculo.png";
 const imageAltText = "purple and blue abstract background";
 
 /**
@@ -54,22 +53,17 @@ const Curriculo = () => {
         <h2>Curriculo</h2>
         <p className="large">{description}</p>
         <hr />
-        <ul
+        <div
           style={{
-            textAlign: "left",
-            columns: 2,
+            textAlign: "center",
             fontSize: "1.25rem",
             margin: "2rem 3rem",
-            gap: "3rem",
           }}
         >
-          <li>
-            <a href={imageCurriculo} target="_blank" rel="noreferrer">
-              <p>PDF para o Curriculo </p>
-              <img src={imageCurriculo} alt="Curriculo" style={{ width: "300px"  }} />
-            </a>
-          </li>
-        </ul>
+          <a href={imageCurriculo} target="_blank" rel="noreferrer">
+            <p>Baixar PDF do Currículo</p>
+          </a>
+        </div>
         <hr />
         <p style={{ padding: "1rem 3rem 0" }}>Atualizado desde 2025</p>
       </div>
