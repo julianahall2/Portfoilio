@@ -150,3 +150,59 @@ img.socialIcon {
 .animate-slideInRight {
   animation: 1s ease-out 0s 1 slideInRight;
 }
+
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  p.large {
+    font-size: 18px;
+  }
+
+  section img.background {
+    width: 200vw;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+  }
+
+  .container .box {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  div#main {
+    padding-top: 5rem;
+  }
+
+  .header-links {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  #about > div,
+  #curriculo > div {
+    width: 90%;
+    padding: 2rem;
+    margin: 2rem auto;
+  }
+
+  #portfolio > div {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #portfolio > div > div:first-child {
+    max-width: 100%;
+    margin-bottom: 2rem;
+  }
+}

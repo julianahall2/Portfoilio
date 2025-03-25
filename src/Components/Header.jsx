@@ -12,9 +12,10 @@ const Header = () => {
       style={{
         position: "fixed",
         display: "flex",
+        flexWrap: "wrap",
         justifyContent: "center",
-        gap: "2rem",
-        background: "rgba(255,255,255,0.75)",
+        gap: "1rem",
+        background: "rgba(255,255,255,0.95)",
         padding: "1rem",
         top: 0,
         width: "100%",
@@ -25,7 +26,7 @@ const Header = () => {
       <a href="#about">Sobre Mim</a>
       <a href="#portfolio">Portfolio</a>
       <a href="#footer">Contato</a>
-      <a href="#curriculo">Curriculo</a>
+      <a href="#curriculo">Currículo</a>
     </div>
   );
 };
